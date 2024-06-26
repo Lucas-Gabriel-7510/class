@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(196, 189, 252);
+}
+
+.title {
+    font-size: 48px;
+    color: white;
+}
+
+.paragraph{
+    font-family: monospace;
+    font-size: 20px;
+    margin: 40px;
+    background-color: red;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list2 {
+    list-style: none;
+}
+
+input{
+    margin: 20px;
+}
