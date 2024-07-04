@@ -7,7 +7,7 @@ body {
     color: white;
 }
 
-.paragraph{
+.paragraph {
     font-family: monospace;
     font-size: 20px;
     margin: 40px;
@@ -24,6 +24,29 @@ body {
     list-style: none;
 }
 
-input{
-    margin: 20px;
+form {
+    width: 300px;
+    margin: 0px auto;
+}
+
+.container-list {
+    width: 300px;
+    margin: 0px auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
 }
