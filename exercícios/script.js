@@ -20,19 +20,9 @@ if (palavra) {
     const string1 = prompt("Digite algo")
     const string2 = prompt("Digite mais")
 
-    const string3 = string1 + string2
-    const resultado = string1.concat(" ", string2)
+    const string3 = string1 + " " + string2
 
-    console.log(resultado)
-    
-
-    // Escreva um programa que leia uma string e conte o número de vezes que a letra aparece na string.
-
-    const frase = "ola mundo, mundo ola"
-    const contador = frase.matchAll("ola")
-    const length = contador.length
-    console.log(contador)
-    console.log(length)
+    console.log(string3)
 
     // Escreva um programa que leia um e-mail e extraia o domínio (parte após o "@"). Exiba o domínio.
 
